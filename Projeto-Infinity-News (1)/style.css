@@ -1,0 +1,181 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  box-sizing: border-box;
+}
+p {
+ color: gray;
+}
+#p4 {
+  font-family: system-ui
+}
+header {
+  display: flex;
+  justify-content: space-between;
+   width: 100%;
+}
+.cabecalho {
+  display: flex;
+  width: 200px;
+  gap: 8px;
+  font-family: system-ui
+}
+h1 {
+  color: white;
+  justify-content: center;
+  font-family: system-ui
+}
+h2 {
+  color: white;
+  justify-content: center;
+  font-family: system-ui
+}
+span {
+  color: red;
+  font-family: system-ui
+}
+#descricao {
+  color: white;
+  font-family: system-ui
+}
+#p2 {
+  color: white;
+  widht: 50%;
+  flex-direction: column;
+  font-family: system-ui
+}
+figure {
+  display: flex;
+  align-items: center; 
+  gap: 30px;
+  font-family: system-ui
+}
+figcaption {
+  color:white;
+  font-family: system-ui
+}
+.Teste1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-family: system-ui
+}
+#Hands {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  font-family: system-ui
+}
+button {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  width: 140px;
+  border: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: system-ui
+}
+.button_noticias { 
+    justify-content: center;
+    align-content: center;
+  font-family: system-ui
+}
+
+.button_noticias button{
+    color: white;
+    font-family: Calibri;
+    font-size: medium;
+    font-weight: bold;
+    background-color: red;
+    height: 45px;
+    width: 172px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 0;
+    border-width: 0;
+  font-family: system-ui
+}
+
+.button_atividades{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    gap: 8px;
+    height: 143px;
+    width: 100%;
+  font-family: system-ui
+}
+
+
+
+.button_atividades img{
+    height: 20px;
+  font-family: system-ui
+}
+
+.button_atividades button{
+    display: flex;
+    color: rgb(236, 88, 88);
+    font-family: Calibri;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 102.8px;
+  background-color: transparent;
+  font-family: system-ui
+}
+
+.button_store{
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    display: flex;
+}
+
+.button_store button{
+    margin-top: 35px;
+    border-width: 0;
+background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-family: system-ui;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer img{
+    height: 40px;
+}
+
+#footerend{
+    margin-top: 15px;
+    height: 100%;
+    width: 220px;
+    text-align: center;
+    color: white;
+}
+#footerend2 {
+   color: white;
+  align-content: center;
+  justify-content: center;
+  }
+#spanend {
+color: blue;
+  }
